@@ -1,0 +1,64 @@
+{'w': '2', 'numGen': '100', 'K': '4', 'mutRate': '0.85', 'popSize': '10000', 'N': '5', 'u': '3', 'seedSolution': '11001111000000000000'}
+Initial fitness: 2.0
+10001
+[  1.14573786e-04   2.29147571e-04   3.43721357e-04 ...,   9.99770852e-01
+   9.99885426e-01   1.00000000e+00]
+2
+[  1.06281220e-04   2.12562440e-04   2.12562440e-04 ...,   9.99787438e-01
+   9.99893719e-01   1.00000000e+00]
+         391483 function calls in 0.368 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.368    0.368 <string>:1(<module>)
+        2    0.000    0.000    0.000    0.000 arrayprint.py:151(_leading_trailing)
+        2    0.000    0.000    0.000    0.000 arrayprint.py:175(_array2string)
+        2    0.000    0.000    0.000    0.000 arrayprint.py:243(array2string)
+       14    0.000    0.000    0.000    0.000 arrayprint.py:309(_extendLine)
+        2    0.000    0.000    0.000    0.000 arrayprint.py:317(_formatArray)
+        2    0.000    0.000    0.000    0.000 arrayprint.py:385(__init__)
+        2    0.000    0.000    0.000    0.000 arrayprint.py:394(fillFormat)
+       12    0.000    0.000    0.000    0.000 arrayprint.py:445(__call__)
+    20000    0.006    0.000    0.006    0.000 cContext.py:110(getID)
+    20000    0.039    0.000    0.192    0.000 cGAPopulation.py:209(__select)
+        1    0.000    0.000    0.000    0.000 cGAPopulation.py:315(getMaxOrg)
+        2    0.049    0.025    0.368    0.184 cGAPopulation.py:96(step)
+    20000    0.040    0.000    0.052    0.000 cGASolution.py:19(__init__)
+    20000    0.002    0.000    0.002    0.000 cGASolution.py:36(getGenome)
+    23016    0.004    0.000    0.004    0.000 cGASolution.py:39(setGenome)
+    20000    0.029    0.000    0.087    0.000 cGASolution.py:46(getChildOrg)
+    40046    0.027    0.000    0.027    0.000 cRRwD.py:103(_getPos)
+    16984    0.018    0.000    0.096    0.000 cRRwD.py:37(evaluateOrgFitness)
+     3016    0.007    0.000    0.027    0.000 cRRwD.py:51(mutateAndEvaluateOrgFitness)
+    20000    0.053    0.000    0.086    0.000 cRRwD.py:67(_evalFitness)
+        2    0.000    0.000    0.000    0.000 cSolution.py:100(getID)
+    40000    0.006    0.000    0.006    0.000 cSolution.py:64(setFitness)
+        2    0.000    0.000    0.000    0.000 cStats.py:63(addGenStats)
+        2    0.000    0.000    0.000    0.000 fromnumeric.py:1612(cumsum)
+    20000    0.009    0.000    0.064    0.000 fromnumeric.py:756(searchsorted)
+        2    0.000    0.000    0.000    0.000 numeric.py:1390(array_str)
+       28    0.000    0.000    0.000    0.000 numeric.py:2070(seterr)
+       28    0.000    0.000    0.000    0.000 numeric.py:2166(geterr)
+     3016    0.004    0.000    0.004    0.000 random.py:173(randrange)
+     3016    0.001    0.000    0.006    0.000 random.py:237(randint)
+        1    0.000    0.000    0.368    0.368 rrwd.py:53(run_sim)
+        8    0.000    0.000    0.000    0.000 {issubclass}
+       40    0.000    0.000    0.000    0.000 {len}
+    20002    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'compress' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'cumsum' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    20000    0.006    0.000    0.006    0.000 {method 'getrandbits' of '_random.Random' objects}
+    43016    0.004    0.000    0.004    0.000 {method 'random' of '_random.Random' objects}
+        4    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+       30    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+    20000    0.055    0.000    0.055    0.000 {method 'searchsorted' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {numpy.core.multiarray.concatenate}
+        2    0.000    0.000    0.000    0.000 {numpy.core.multiarray.zeros}
+       56    0.000    0.000    0.000    0.000 {numpy.core.umath.geterrobj}
+       28    0.000    0.000    0.000    0.000 {numpy.core.umath.seterrobj}
+    19087    0.006    0.000    0.006    0.000 {range}
+        2    0.000    0.000    0.000    0.000 {reduce}
+
+

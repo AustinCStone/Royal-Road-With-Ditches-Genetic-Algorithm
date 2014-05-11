@@ -1,3 +1,9 @@
+###############################
+## Python Evolution - v 0.1  ##
+## A. W. Covert III, Ph. D   ##
+## Austin Stone              ##
+## All rights reserved       ##
+###############################
 class PE_SimulationOutput(Exception):
     def __init__(self, value):
         self.value = value

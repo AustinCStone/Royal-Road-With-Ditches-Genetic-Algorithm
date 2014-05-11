@@ -1,0 +1,72 @@
+from sys import argv
+from os import mkdir
+from os.path import exists
+
+from cContext import *
+from cGASolution import *
+from cRRwD import *
+from cGAPopulation import *
+
+#!/usr/bin/python
+#import time
+#import cProfile
+
+# measure process time
+#t0 = time.clock()
+## Main driver program
+
+## Read in input file
+
+#verify the inputs
+if(len(argv) != 3):
+    print "Error, takes exactly 3 arguments <script> <random seed> <options file>, " + str(len(argv)) + " arguments detected."
+    quit()
+    
+## Create context object -- reads in option file and returns 
+ctx = cContext(argv[1], argv[2])
+
+#number of blocks
+N = ctx.getInt("N")
+
+#length of blocks
+K = ctx.getInt("K")
+
+#width of barrier penalized
+w = ctx.getInt("w")
+
+#width of barrier nonpenalized
+u = ctx.getInt("u") 
+
+#penalty
+p = ctx.getInt("p")
+## Create Seed individual
+seed = cGASolution(ctx,N*K)
+
+## intilize the seed organism to BAXX
+seed.setGenome(long(ctx.get("seedSolution"),2))
+
+## Create a simulation environment
+sim = cRRwD(ctx, N,K,w,u,p)
+
+print "Initial fitness: %s" % str(sim.evaluateOrgFitness(ctx, seed))
+
+## Create a popualation to 
+pop = cGAPopulation(ctx, sim, seed)
+
+print pop.step()
+
+for i in range(1,ctx.numGen):
+        print "Processing Geneeration %s, max fit: %s, max genome: %s" % (str(pop.step()), str(pop.getMaxOrg().getFitness()), str(pop.getMaxOrg()))
+
+
+
+
+if not exists("data"):
+    mkdir("data")
+
+fp = open("data/summary.dat","w")
+fp.write(pop.dumpSummaryStats())
+fp.close()
+print pop.getMaxOrg()
+#print time.clock() - t0, "seconds process time"
+

@@ -1,0 +1,5 @@
+#driver program to determine errors 
+
+from cRRwD import *
+
+print evalFitness(self, 11001111000000000000)

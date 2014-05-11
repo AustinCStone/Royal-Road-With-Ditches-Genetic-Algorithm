@@ -1,0 +1,94 @@
+###############################
+## Python Evolution - v 0.1  ##
+## A. W. Covert III, Ph. D   ##
+## All rights reserved       ##
+###############################
+
+### Interface between cSolution and the actual simulation
+### Base class
+
+from cSimulationInterface import *
+
+class cRRwD(cSimulationInterface):
+
+    def __init__ (self, ctx, N, K, w, penelty):
+        self._N = N
+        self._K = K
+        self._w = w
+        self._p = penelty
+
+        self._solutionLen = self._N * self._K
+
+        #block templates
+        self._A = (2**(K) - 1)
+        self._B = (self._A >> w) << w
+        
+        return None
+
+    def getSolutionLen():
+        return self._solutionLen
+
+    ### Function - cSimulationInterface::evalutateOrgFitness
+    ### Purpose  - run the solution through the simulation to get fitness
+    ### Input    - None
+    ### Output   - Boolean indicating success or failure of the simulation
+    def evaluateOrgFitness(self,ctx,org):
+
+        genome = org.getGenome()
+
+        fitness = self._evalFitness(genome)
+        
+        org.setFitness(fitness)
+        
+        return fitness
+
+    ### Function - cSimulationInterface::mutateAndEvalutateOrgFitness
+    ### Purpose  - run the solution through the simulation to mutate it, set the solutions fitness
+    ### Input    - None
+    ### Output   - Boolean indicating success or failure of the simulation
+    def mutateAndEvaluateOrgFitness(self,ctx,org):
+        genome = org.getGenome()
+
+        genome ^= 2**(ctx.random.randint(0,self._solutionLen-1))
+
+        fitness = self._evalFitness(genome)
+        
+        org.setFitness(fitness)
+        org.setGenome(genome)
+        
+        return fitness
+#print evalFitness(self, 11001111000000000000)
+#eval fitness modified to simulate negative epistasis of beneficial mutations
+#additional variable bCounter is added to keep track of the number of b blocks
+#the number of b blocks determines the extent of the negative epistatis
+#it is currently set to add to the exponent 1/bCounter
+    def _evalFitness(self, genome):
+        exponent = 1.0
+        coef = 1.0
+        X_block = False
+        bCounter = 0.0
+
+        if self._getPos(genome, 1) == self._B:
+            bCounter += 1.0
+            for i in range(2, self._N):
+                block = self._getPos(genome, i)
+                if(block == self._B and X_block == False):
+                    # print "B" + bin(block)
+                    bCounter += 1.0
+                    exponent += (1.0/(bCounter**(bCounter/(self._N/4.0))))
+                elif (block == self._A):
+                    return coef * (2**exponent)
+                elif (X_block == False):
+                    #print "X" + bin(block)
+                    X_block == True
+                    coef = 1.0 - self._p
+                else:
+                    return 0.0
+        else:
+            return 0.0
+
+        return 0.0
+#this is part of the problem, it shifts it over N.. Should shift over by the
+#genome length incase some genomes aren't maximum length maybe?    
+    def _getPos(self, genome, i):
+        return (genome >> ((self._N - i) * self._K)) & self._A

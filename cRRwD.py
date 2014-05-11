@@ -1,6 +1,7 @@
 ###############################
 ## Python Evolution - v 0.1  ##
 ## A. W. Covert III, Ph. D   ##
+## Austin Stone              ##
 ## All rights reserved       ##
 ###############################
 
@@ -66,7 +67,7 @@ class cRRwD(cSimulationInterface):
 #it is currently set to add to the exponent 1/bCounter
     def _evalFitness(self, genome):
        # exponent = 1.0
-        epiConst = .75
+        epiConst = 2
         coef = 1.0
         D_block = False
         E_block = False 
@@ -79,7 +80,7 @@ class cRRwD(cSimulationInterface):
                 bCounter = 2.0
                 previousAddB = 2.0
             if self._getPos(genome, 1) == self._C:
-                cCounter =2.0
+                cCounter = 2.0
                 previousAddC = 2.0
             for i in range(2, self._N):
                 block = self._getPos(genome, i)

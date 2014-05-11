@@ -1,6 +1,7 @@
 ###############################
 ## Python Evolution - v 0.1  ##
 ## A. W. Covert III, Ph. D   ##
+## Austin Stone              ##
 ## All rights reserved       ##
 ###############################
 

@@ -1,0 +1,9 @@
+popSize: 10000
+numGen: 1000
+mutRate: 0.85
+seedSolution: 110000111111000000000000000000000000
+N: 9
+K: 4
+w: 2
+u: 2
+p: .5

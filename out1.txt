@@ -1,0 +1,145 @@
+{'w': '2', 'numGen': '100', 'K': '4', 'mutRate': '0.85', 'popSize': '10000', 'N': '5', 'u': '3', 'seedSolution': '11001111000000000000'}
+Initial fitness: 2.0
+2
+Processing Geneeration 3, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 4, max fit: 2.0, max genome: 0b11001111000000100000
+Processing Geneeration 5, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 6, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 7, max fit: 2.0, max genome: 0b11001111000000000010
+Processing Geneeration 8, max fit: 2.0, max genome: 0b11001111100010000000
+Processing Geneeration 9, max fit: 2.0, max genome: 0b11001111000010000000
+Processing Geneeration 10, max fit: 2.0, max genome: 0b11001111000000000100
+Processing Geneeration 11, max fit: 2.0, max genome: 0b11001111100000100000
+Processing Geneeration 12, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 13, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 14, max fit: 2.0, max genome: 0b11001111000010000100
+Processing Geneeration 15, max fit: 2.0, max genome: 0b11001111000001000000
+Processing Geneeration 16, max fit: 2.0, max genome: 0b11001111000000000010
+Processing Geneeration 17, max fit: 2.0, max genome: 0b11001111010000000000
+Processing Geneeration 18, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 19, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 20, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 21, max fit: 2.0, max genome: 0b11001111000100001110
+Processing Geneeration 22, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 23, max fit: 2.0, max genome: 0b11001111100000000010
+Processing Geneeration 24, max fit: 2.0, max genome: 0b11001111001010100000
+Processing Geneeration 25, max fit: 2.0, max genome: 0b11001111000010000000
+Processing Geneeration 26, max fit: 2.0, max genome: 0b11001111010100000000
+Processing Geneeration 27, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 28, max fit: 2.0, max genome: 0b11001111000010000011
+Processing Geneeration 29, max fit: 2.0, max genome: 0b11001111100000000000
+Processing Geneeration 30, max fit: 2.0, max genome: 0b11001111000000110000
+Processing Geneeration 31, max fit: 2.0, max genome: 0b11001111100110000011
+Processing Geneeration 32, max fit: 2.0, max genome: 0b11001111000000001000
+Processing Geneeration 33, max fit: 2.0, max genome: 0b11001111001000001000
+Processing Geneeration 34, max fit: 2.0, max genome: 0b11001111000110110010
+Processing Geneeration 35, max fit: 2.0, max genome: 0b11001111100110000011
+Processing Geneeration 36, max fit: 2.0, max genome: 0b11001111001000110000
+Processing Geneeration 37, max fit: 2.0, max genome: 0b11001111001000110000
+Processing Geneeration 38, max fit: 2.0, max genome: 0b11001111000000000000
+Processing Geneeration 39, max fit: 2.0, max genome: 0b11001111001000000000
+Processing Geneeration 40, max fit: 2.0, max genome: 0b11001111001000110100
+Processing Geneeration 41, max fit: 2.0, max genome: 0b11001111000010001100
+Processing Geneeration 42, max fit: 2.0, max genome: 0b11001111100001010101
+Processing Geneeration 43, max fit: 2.0, max genome: 0b11001111001000001000
+Processing Geneeration 44, max fit: 2.0, max genome: 0b11001111001010001100
+Processing Geneeration 45, max fit: 2.0, max genome: 0b11001111000100010100
+Processing Geneeration 46, max fit: 2.0, max genome: 0b11001111100000001010
+Processing Geneeration 47, max fit: 2.0, max genome: 0b11001111010000100000
+Processing Geneeration 48, max fit: 2.0, max genome: 0b11001111100001011010
+Processing Geneeration 49, max fit: 4.0, max genome: 0b11000001111100001000
+Processing Geneeration 50, max fit: 2.0, max genome: 0b11001111100001100010
+Processing Geneeration 51, max fit: 2.0, max genome: 0b11001111010000100000
+Processing Geneeration 52, max fit: 2.0, max genome: 0b11001111101100011010
+Processing Geneeration 53, max fit: 2.0, max genome: 0b11001111101000000101
+Processing Geneeration 54, max fit: 4.0, max genome: 0b11001010000111110010
+Processing Geneeration 55, max fit: 2.0, max genome: 0b11001111011000001000
+Processing Geneeration 56, max fit: 2.0, max genome: 0b11001111100100000011
+Processing Geneeration 57, max fit: 2.0, max genome: 0b11001111010000000000
+Processing Geneeration 58, max fit: 2.0, max genome: 0b11001111010000100000
+Processing Geneeration 59, max fit: 2.0, max genome: 0b11001111010001000100
+Processing Geneeration 60, max fit: 2.0, max genome: 0b11001111010010100000
+Processing Geneeration 61, max fit: 2.0, max genome: 0b11001111010001000100
+Processing Geneeration 62, max fit: 2.0, max genome: 0b11001111000101100001
+Processing Geneeration 63, max fit: 2.0, max genome: 0b11001111010000100000
+Processing Geneeration 64, max fit: 2.0, max genome: 0b11001111010000100000
+Processing Geneeration 65, max fit: 2.0, max genome: 0b11001111110000100000
+Processing Geneeration 66, max fit: 2.0, max genome: 0b11001111000011110101
+Processing Geneeration 67, max fit: 2.0, max genome: 0b11001111000011110101
+Processing Geneeration 68, max fit: 2.0, max genome: 0b11001111010000010000
+Processing Geneeration 69, max fit: 2.0, max genome: 0b11001111000000100101
+Processing Geneeration 70, max fit: 0.0, max genome: 0b11111101100100010000
+Processing Geneeration 71, max fit: 0.0, max genome: 0b1000001000110010000
+Processing Geneeration 72, max fit: 0.0, max genome: 0b1000001000110010000
+Processing Geneeration 73, max fit: 0.0, max genome: 0b1000001000110010000
+Processing Geneeration 74, max fit: 0.0, max genome: 0b1000001000110010000
+Processing Geneeration 75, max fit: 0.0, max genome: 0b1000000000110010000
+Processing Geneeration 76, max fit: 0.0, max genome: 0b1001001000110010000
+Processing Geneeration 77, max fit: 0.0, max genome: 0b1000001000110010000
+Processing Geneeration 78, max fit: 0.0, max genome: 0b1000001000110010000
+Processing Geneeration 79, max fit: 0.0, max genome: 0b1000001001110010000
+Processing Geneeration 80, max fit: 0.0, max genome: 0b1000001100110010000
+Processing Geneeration 81, max fit: 0.0, max genome: 0b1000001100110010000
+Processing Geneeration 82, max fit: 0.0, max genome: 0b1000001100111010000
+Processing Geneeration 83, max fit: 0.0, max genome: 0b1000000100111010000
+Processing Geneeration 84, max fit: 0.0, max genome: 0b1000001100111000000
+Processing Geneeration 85, max fit: 0.0, max genome: 0b1100001100111010000
+Processing Geneeration 86, max fit: 0.0, max genome: 0b1000001100111010000
+Processing Geneeration 87, max fit: 0.0, max genome: 0b1000001100111010000
+Processing Geneeration 88, max fit: 0.0, max genome: 0b1000001100111010000
+Processing Geneeration 89, max fit: 0.0, max genome: 0b1000001100011010000
+Processing Geneeration 90, max fit: 0.0, max genome: 0b1000001100011010000
+Processing Geneeration 91, max fit: 0.0, max genome: 0b1000001100010010000
+Processing Geneeration 92, max fit: 0.0, max genome: 0b1000001100010010000
+Processing Geneeration 93, max fit: 0.0, max genome: 0b1000001100010010000
+Processing Geneeration 94, max fit: 0.0, max genome: 0b1000001100010010000
+Processing Geneeration 95, max fit: 0.0, max genome: 0b1000001100011010000
+Processing Geneeration 96, max fit: 0.0, max genome: 0b1000001100011010000
+Processing Geneeration 97, max fit: 0.0, max genome: 0b1000001100011010000
+Processing Geneeration 98, max fit: 0.0, max genome: 0b1000001110011010000
+Processing Geneeration 99, max fit: 0.0, max genome: 0b1000001100011010000
+Processing Geneeration 100, max fit: 0.0, max genome: 0b11000001100011010000
+Processing Geneeration 101, max fit: 0.0, max genome: 0b1000001100011010000
+         21477030 function calls in 17.918 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   17.918   17.918 <string>:1(<module>)
+   999900    0.261    0.000    0.261    0.000 cContext.py:110(getID)
+   999900    1.615    0.000    9.020    0.000 cGAPopulation.py:206(__select)
+      198    0.000    0.000    0.000    0.000 cGAPopulation.py:306(getMaxOrg)
+      100    2.437    0.024   17.916    0.179 cGAPopulation.py:95(step)
+   999900    1.878    0.000    2.432    0.000 cGASolution.py:19(__init__)
+       99    0.000    0.000    0.000    0.000 cGASolution.py:33(__str__)
+   999900    0.123    0.000    0.123    0.000 cGASolution.py:36(getGenome)
+  1149773    0.200    0.000    0.200    0.000 cGASolution.py:39(setGenome)
+   999900    1.488    0.000    4.248    0.000 cGASolution.py:46(getChildOrg)
+  1483883    1.095    0.000    1.095    0.000 cRRwD.py:103(_getPos)
+   850027    0.864    0.000    3.602    0.000 cRRwD.py:37(evaluateOrgFitness)
+   149873    0.351    0.000    1.149    0.000 cRRwD.py:51(mutateAndEvaluateOrgFitness)
+   999900    1.745    0.000    2.930    0.000 cRRwD.py:67(_evalFitness)
+      152    0.000    0.000    0.000    0.000 cSolution.py:100(getID)
+  3093040    0.731    0.000    0.731    0.000 cSolution.py:36(__cmp__)
+       99    0.000    0.000    0.000    0.000 cSolution.py:49(getFitness)
+  1999800    0.315    0.000    0.315    0.000 cSolution.py:64(setFitness)
+      100    0.000    0.000    0.000    0.000 cStats.py:63(addGenStats)
+      100    0.000    0.000    0.004    0.000 fromnumeric.py:1612(cumsum)
+   999900    0.446    0.000    3.075    0.000 fromnumeric.py:756(searchsorted)
+   149873    0.212    0.000    0.222    0.000 random.py:173(randrange)
+   149873    0.074    0.000    0.297    0.000 random.py:237(randint)
+        1    0.002    0.002   17.918   17.918 rrwd.py:53(run_sim)
+       99    0.000    0.000    0.000    0.000 {bin}
+  1000000    0.081    0.000    0.081    0.000 {method 'append' of 'list' objects}
+      100    0.004    0.000    0.004    0.000 {method 'cumsum' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+   999900    0.293    0.000    0.293    0.000 {method 'getrandbits' of '_random.Random' objects}
+  2149673    0.182    0.000    0.182    0.000 {method 'random' of '_random.Random' objects}
+   999900    2.629    0.000    2.629    0.000 {method 'searchsorted' of 'numpy.ndarray' objects}
+      100    0.787    0.008    1.518    0.015 {method 'sort' of 'list' objects}
+      100    0.002    0.000    0.002    0.000 {numpy.core.multiarray.zeros}
+   300865    0.102    0.000    0.102    0.000 {range}
+
+
+0b1000001100011010000
+18.0 seconds process time
